@@ -10,4 +10,22 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'ifcondition';
+
+  data = true;
+  login()
+  {
+    this.data = true;
+  }
+  logout()
+  {
+    this.data = false;
+
+  }
+  Name = "Zahid";
+
+  foremployee: any[] = [
+    { id: 1, email: 'Kashif@gmail.com' },
+    { id: 2, email: 'Naseem@gmail.com' },
+    {id:3,email:'Adeed@gmail.com'},
+  ]
 }
